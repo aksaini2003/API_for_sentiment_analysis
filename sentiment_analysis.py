@@ -37,7 +37,7 @@ def get_sentiment(text):
         confidence=positive+negative
         
     return sentiment,confidence
-
+    
 
 
 @app.get('/')
